@@ -60,7 +60,7 @@ public class AutoLinkAuthenticatorFactory implements AuthenticatorFactory {
 
     @Override
     public String getDisplayType() {
-        return "Automaticallly link brokered account";
+        return "Automatically link brokered account";
     }
 
     @Override
