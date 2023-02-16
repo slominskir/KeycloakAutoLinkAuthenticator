@@ -1,3 +1,5 @@
+<b>NOTE - This authenticator was added to Keycloak.  See: [automatically-link-existing-first-login-flow](https://www.keycloak.org/docs/9.0/server_admin/#automatically-link-existing-first-login-flow)</b>
+
 # KeycloakAutoLinkAuthenticator
 Automatically link brokered identities without any validation with this Keycloak authenticator.  This is useful in an intranet environment of multiple user databases each with overlapping usernames/emails, but different passwords and you want to allow users to use any password without having to validate (this is only reasonable if you manage all internal databases and usernames/emails matching those in another belong to the same person).
 
